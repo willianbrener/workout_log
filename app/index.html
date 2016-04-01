@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- materialize framework CSS -->
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Workout Log</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Workout Log</h1>
+    </div>
+    <div id="section">
+    <!-- Main block -->
+      <div id="cm-holder" class="container"></div>
+    </div>
+    <div id="footer">
+    </div>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">    </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+      <script src="js/datepicker-pt-BR.js"></script>
+      <script src="js/bundle.js"></script>
+      <script>
+          $(function() {
+              $( "#work_date" ).datepicker();
+          });
+     </script>
+  </body>
+</html>
